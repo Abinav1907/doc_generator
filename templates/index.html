@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerPoint Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Create a PowerPoint Presentation</h1>
+        <form action="/generate" method="POST">
+            <label for="topic">Topic:</label>
+            <input type="text" id="topic" name="topic" required>
+
+            <label for="number_of_slides">Number of Slides:</label>
+            <input type="number" id="number_of_slides" name="number_of_slides" required min="1">
+
+            <label for="reference_links">Reference Links:</label>
+            <textarea id="reference_links" name="reference_links" rows="4"></textarea>
+
+            <button type="submit">Generate PPT</button>
+        </form>
+    </div>
+</body>
+</html>
