@@ -1,11 +1,6 @@
-langchain
-flask
-langchain_groq
 
-python-pptx
-python-pptx.util
-python-pptx.dml.color
-re
-flask_mysqldb
-logging
-os
+
+Flask==3.0.3
+langchain==0.3.7
+python-pptx==1.0.2
+flask-mysqldb==1.0.1
