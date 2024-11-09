@@ -3,8 +3,8 @@ flask
 langchain_groq
 
 python-pptx
-pptx.util
-pptx.dml.color
+python-pptx.util
+python-pptx.dml.color
 re
 flask_mysqldb
 logging
