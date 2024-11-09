@@ -9,9 +9,10 @@ import os
 from flask_mysqldb import MySQL
 import logging
 from dotenv import load_dotenv
-load_dotenv()
+
 app = Flask(__name__)
 app.secret_key = os.getenv('FLASK_SECRET_KEY', 'your_secret_key')  # Use an environment variable for production
+load_dotenv()
 app.config['MYSQL_HOST'] = os.getenv('MYSQL_HOST')
 app.config['MYSQL_USER'] = os.getenv('MYSQL_USER')
 app.config['MYSQL_PASSWORD'] = os.getenv('MYSQL_PASSWORD')
