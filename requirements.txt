@@ -1,4 +1,4 @@
-
+langchain
 flask
 langchain_groq
 langchain_core.prompts
