@@ -9,6 +9,3 @@ flask-mysqldb==1.0.1
 langchain_groq
 
 
-python-pptx.util
-python-pptx.dml.color
-re
