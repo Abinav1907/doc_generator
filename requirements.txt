@@ -1,7 +1,7 @@
 langchain
 flask
 langchain_groq
-langchain_core.prompts
+
 pptx
 pptx.util
 pptx.dml.color
