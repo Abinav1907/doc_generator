@@ -2,7 +2,7 @@ langchain
 flask
 langchain_groq
 
-pptx
+python-pptx
 pptx.util
 pptx.dml.color
 re
